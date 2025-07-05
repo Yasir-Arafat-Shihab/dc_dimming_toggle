@@ -1,16 +1,15 @@
-***FOR TOGGLE***
+##### FOR TOGGLE
 
-##### Run this command in termux app to setup dc_dimming_toggle then add a termux_widget on home screen
+***Run this command in termux app to setup dc_dimming_toggle then add a termux_widget on home screen***
 
+Code:
 ```bash
 curl https://raw.githubusercontent.com/Yasir-Arafat-Shihab/dc_dimming_toggle/main/setup.sh | bash
 ```
 
-##### Termux must have SU access granted for toggle to work
+***Termux must have SU access granted for toggle to work***
 
-***FOR ONE TIME {FORCED}***
-
-#####❝DC Dimming❞
+##### FOR ONE TIME {FORCED}
 
 1.Install termux 
 
@@ -25,16 +24,19 @@ curl https://raw.githubusercontent.com/Yasir-Arafat-Shihab/dc_dimming_toggle/mai
 
 5. To turn on DC_DIM
 
+Code:
 ```bash
 su -c 'echo "1 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
 ```
 
 6. To turn off DC_DIM
+
+Code:
 ```bash
 su -c 'echo "0 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
 ```
 
-***For Oneplus (Fixing DC dimming)​***
+##### For Oneplus (Fixing DC dimming)​
 
 <ins>*Variant ◑1*</ins>
 On your PC using ADB type:
