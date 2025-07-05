@@ -33,7 +33,7 @@ elif [[ "$status" == "0 1" ]]; then
   echo "dc_dimming is currently ENABLED"
   sleep 0.8
   echo "Disabling.."
-  su -c 'echo "1 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
+  su -c 'echo "0 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
   sleep 0.9
   echo "dc_dimming is now DISABLED"
   sleep 1.0
