@@ -3,12 +3,12 @@ FOR TOGGLE
 ##### Run this command in termux app to setup dc_dimming_toggle then add a termux_widget on home screen
 
 ```bash
-curl https://raw.githubusercontent.com/ehhhSenpai/dc_dimming_toggle/main/setup.sh | bash
+curl https://raw.githubusercontent.com/Yasir-Arafat-Shihab/dc_dimming_toggle/main/setup.sh | bash
 ```
 
 ##### Termux must have SU access granted for toggle to work
 
-FOR ONE TIME
+FOR ONE TIME {FORCED}
 
 #####❝DC Dimming❞
 
