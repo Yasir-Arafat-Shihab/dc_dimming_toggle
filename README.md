@@ -34,7 +34,7 @@ su -c 'echo "1 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
 su -c 'echo "0 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
 ```
 
-#####For Oneplus 
+##### For Oneplus 
 Fixing DC dimming​
 
 
