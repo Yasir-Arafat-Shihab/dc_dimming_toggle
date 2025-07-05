@@ -38,7 +38,7 @@ su -c 'echo "0 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
 Fixing DC dimming​
 
 
-*Variant #1*
+<ins>*Variant ◑1*</ins>
 On your PC using ADB type:
 
 Code:
@@ -49,7 +49,7 @@ Done. To disable change "1" to "0".
 What it does? It sets the variable for DC dimming to 1 (enabled) or to 0 (disabled). Variant 2 does the same thing but it is accessed by opening up a hidden panel. As both require ADB this one is quicker and easier.​
 
 
-*Variant 2 (old method)*
+<ins>*Variant 2 (old method)*</ins>
 On your PC using ADB type:
 
 Code:
