@@ -65,4 +65,4 @@ The settings panel for DC dimming will now start on your device
 Enable or disable it as you please ;)
 
 
-What it does? It starts the part of the OnePlus Lab that contains DC dimming. It is still there but for some reason it is hidden. The command will start the panel and let you enable or disable it.
+>What it does? It starts the part of the OnePlus Lab that contains DC dimming. It is still there but for some reason it is hidden. The command will start the panel and let you enable or disable it.
