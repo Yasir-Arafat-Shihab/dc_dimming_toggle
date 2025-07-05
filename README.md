@@ -36,6 +36,8 @@ su -c 'echo "0 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
 
 #####For Oneplus 
 Fixing DC dimming​
+
+
 *Variant #1*
 On your PC using ADB type:
 
