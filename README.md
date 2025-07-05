@@ -23,12 +23,13 @@ FOR ONE TIME
 4.Aprrove kernelSU or Give Magisk access to termux 
 (root access) 
 
-5. To turn on DCDIM
-```
-echo "1 0" > /sys/kernel/oplus_display/dimlayer_bl_en
+5. To turn on DC_DIM
+
+```bash
+su -c 'echo "1 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
 ```
 
-6. To turn off DCDIM
-```
-echo "0 0" > /sys/kernel/oplus_display/dimlayer_bl_en
+6. To turn off DC_DIM
+```bash
+su -c 'echo "0 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
 ```
