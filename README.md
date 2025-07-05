@@ -33,3 +33,30 @@ su -c 'echo "1 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
 ```bash
 su -c 'echo "0 0" > /sys/kernel/oplus_display/dimlayer_bl_en'
 ```
+
+#####For Oneplus 
+Fixing DC dimming​
+*Variant #1*
+On your PC using ADB type:
+
+Code:
+```adb shell
+settings put system oneplus_dc_dimming_value 1
+```
+Done. To disable change "1" to "0".
+What it does? It sets the variable for DC dimming to 1 (enabled) or to 0 (disabled). Variant 2 does the same thing but it is accessed by opening up a hidden panel. As both require ADB this one is quicker and easier.​
+
+
+*Variant 2 (old method)*
+On your PC using ADB type:
+
+Code:
+```adb shell
+am start-activity -a oneplus.intent.action.ONEPLUS_LAB_FEATURE_DETAILS -e oneplus_lab_feature_key oneplus_dc_dimming_value
+```
+
+The settings panel for DC dimming will now start on your device
+Enable or disable it as you please ;)
+
+
+What it does? It starts the part of the OnePlus Lab that contains DC dimming. It is still there but for some reason it is hidden. The command will start the panel and let you enable or disable it.
