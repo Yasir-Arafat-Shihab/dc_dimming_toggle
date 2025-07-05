@@ -49,7 +49,7 @@ Done. To disable change "1" to "0".
 What it does? It sets the variable for DC dimming to 1 (enabled) or to 0 (disabled). Variant 2 does the same thing but it is accessed by opening up a hidden panel. As both require ADB this one is quicker and easier.​
 
 
-<ins>*Variant 2 (old method)*</ins>
+<ins>*Variant ◑2*</ins>
 On your PC using ADB type:
 
 Code:
