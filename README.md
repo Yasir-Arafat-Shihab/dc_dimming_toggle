@@ -19,7 +19,7 @@ curl https://raw.githubusercontent.com/Yasir-Arafat-Shihab/dc_dimming_toggle/mai
 3.Write in termux☞ su 
 (for Super User access)
 
-4.Aprrove kernelSU or Give Magisk access to termux 
+4.Aprrove kernel SU or Give Magisk access to termux 
 (root access) 
 
 5. >To turn on DC_DIM
