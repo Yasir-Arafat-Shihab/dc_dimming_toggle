@@ -14,7 +14,7 @@ curl https://raw.githubusercontent.com/Yasir-Arafat-Shihab/dc_dimming_toggle/mai
 1.Install termux 
 
 2.Write in termux☞termux-setup-storage
-(Give storqge permission)
+(Give storage permission)
 
 3.Write in termux☞ su 
 (for Super User access)
